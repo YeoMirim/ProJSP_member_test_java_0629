@@ -19,7 +19,7 @@
 	
 	<br><br>
 	<hr>
-	<form action="deleteOk.jsp">
+	<form action="DeleteOk" method="post">
 		아이디 : <input type="text" name="userId" value="<%= id %>" readonly>
 		<input type="submit" value="회원탈퇴">	
 	</form>

@@ -64,7 +64,7 @@
 
 	<h2>회원 정보 수정</h2>
 	<hr>
-	<form action="modifyOk.jsp" method="post">
+	<form action="ModifyOk" method="post">
 		아이디 : <input type="text" name="memberId" value="<%= id %>" readonly><br><br>
 		비밀번호 : <input type="password" name="memberPw">※가입시 입력한 비밀번호를 입력해주세요.<br><br>
 		이름 : <input type="text" name="memberName" value="<%= name %>"><br><br>
